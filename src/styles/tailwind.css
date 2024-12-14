@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root{
+        --amber_a200: #ffd33c;
+        --black_900: #000000;
+        --blue_700: #1e7bc4;
+        --blue_700_a2: #1e7bc4a2;
+        --blue_700_cc: #1e7bc4cc;
+        --blue_gray_100: #1e7bc4cc;
+        --blue_gray_400: #7e8492;
+        --blue_gray_400_01: #7e8391;
+        --blue_gray_900: #20104b;
+        --blue_gray_900_a5: #20104be5;
+        --blue_gray_900_e5: #20104be5;
+        --deep_purple_50: #ede7f4;
+        --deep_purple_900: #230081;
+        --gray_100: #f7f7f7;
+        --gray_200: #ededed;
+        --gray_300_99: #dddcdc99;
+        --gray_400: #b6b6b6;
+        --gray_500: #989898;
+        --gray_600: #757575;
+        --gray_700: #636363;
+        --gray_700_01: #555555;
+        --gray_800: #464646;
+        --gray_900: #202020;
+        --gray_900_01: #1d1e25;
+        --indigo_900_cc: #1a0455cc;
+        --light_blue_50_7f: #d5ecff7f;
+        --white_a700: #ffffff;
+        --white_a700_4c: #ffffff4c;
+        --white_a700_66: #ffffff66;
+        --white_a700_7f: #ffffff7f;
+        --white_a700_b2: #ffffffb2;
+        --white_a700_cc: #ffffffcc;
+        --white_a700_e5: #ffffffe5;
+
+
+      /*   Border radius var */
+      --radius-xs:4px;
+      --radius-sm:5px;
+      --radius-md:6px;
+      --radius-lg:8px;
+      --radius-xl:12px;
+      --radius-2xl:14px;
+      --radius-3xl:20px;
+      --radius-4xl:32px;
+      --radius-5xl:36px;
+
+      /*   Spacing  var */
+      --space-xs:8px;
+      --space-sm:12px;
+      --sapce-md:13px;
+      --space-lg:16px;
+      --space-xl:18px;
+      --space-2xl:20px;
+      --space-3xl:22px;
+      --space-4xl:24px;
+      --space-5xl:26px;
+      --space-6xl:28px;
+      --space-7xl:30px;
+      --space-8xl:40px;
+      --space-9xl:80px;
+      --space-10xl:86px;
+
+    }
+}
+
+@layer component{
+    .container-xs{
+        @apply w-full mx-auto max-w-[1574px];
+    }
+}
